@@ -51,7 +51,6 @@
 // The comment form.
 //-----------------------------------------
 .comment-form {
-	@include clearfix;
 
 	width: 100%;
 
@@ -121,8 +120,6 @@
 
 	// Comment meta.
 	.comment-meta {
-		@include clearfix;
-
 		margin: 0 0 rem(14) 0;
 	} // .comment-meta
 
