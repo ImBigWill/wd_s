@@ -4,14 +4,13 @@
 
 // Site logo.
 .site-branding {
-	@include span-columns(10);
 
 	@include media($tablet-portrait) {
-		@include span-columns(11);
+
 	}
 
 	@include media($tablet-landscape) {
-		@include span-columns(5);
+
 	}
 
 	// Don't let the logo get out of control.
@@ -54,29 +53,25 @@
 // Header action container — Form Dropdown.
 //-----------------------------------------
 .site-header-action {
-	@include span-columns(12);
+
 
 	@include media($tablet-portrait) {
-		@include span-columns(5);
+
 	}
 
 	@include media($tablet-landscape) {
-		@include span-columns(4);
+
 
 		float: right;
 		margin-right: 0;
 	}
 
 	@include media($desktop) {
-		@include span-columns(3);
-
 		float: right;
 		margin-right: 0;
 	}
 
 	@include media($desktop-large) {
-		@include span-columns(2);
-
 		float: right;
 		margin-right: 0;
 	}
@@ -122,5 +117,5 @@
 // Main Navigation Container.
 //-----------------------------------------
 .main-navigation {
-	@include span-columns(12);
+
 } // .main-navigation

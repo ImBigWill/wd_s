@@ -5,7 +5,7 @@
 
 	.cell {
 		@include media($tablet-portrait) {
-			@include span-columns(6);
+
 		}
 	}
 

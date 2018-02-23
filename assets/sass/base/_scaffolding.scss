@@ -77,7 +77,6 @@
 	// Each swatch.
 	.swatch {
 		@include size(100% rem(125));
-		@include span-columns(3);
 
 		border: 1px solid black;
 		border-radius: rem(5);
